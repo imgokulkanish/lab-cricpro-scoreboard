@@ -1,16 +1,70 @@
-/* Type your code here */
 
-
-/* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
-	position: relative;
-	top: 750px;
-	margin-left: 80px;
-	font-size: 18px;
-	font-family: Nunito Sans;
-    font-style: normal;
-    
+.imge{
+	display: flex;
+	flex-direction: row-reverse;
+	margin:5px 40px 0 0;
 }
+img{
+	
+}
+a{
+	text-decoration: none;
+}
+.r1{
+	color:white;
+	background: orangered;
+	padding: 10px;
+}
+body{
+	background-image:url(assets/background-image1.png);
+	background-repeat: no-repeat;
+	background-position-x: 500px;
+	background-position-y: bottom;
+	background-size:65%;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+table{
+	background: white;
+	font-size: 16.5px;
+	}
+p{
+	font-size: 50px;
+	line-height: 75%;
+	padding-bottom: 60px;
+	color:black
+    background: #ece9e9;
+    text-shadow: 3px 3px 8px #474747;
+	  
+}
+tr{
+	height:30px;
+}
+table,tr,td{
+	border-collapse: collapse;
+}
+
+td{
+	padding: 8px 32px;
+	border-bottom:2px solid lightgrey;
+	font-weight:500;
+}
+.container{
+	margin-left: 70px;
+}
+strong{
+	font-size: 25px;
+	color: grey;
+	text-shadow: none;
+}
+.dismissal{
+	color: grey;
+}
+.p1
+{
+	padding-bottom: 0;
+}
+.player{
+	color: blue;
+}
+
